@@ -1,0 +1,16 @@
+<ul class="list-inline">
+	<li>
+		{% if page.previous.url != page.url %}
+		<a href="{{ page.previous.url }}" class="list-group-item">Previous</a> 
+		{% else %}
+		<a href="#" class="list-group-item disabled">Previous</a>
+		{% endif %}
+	</li>
+	<li>
+		{% if page.next.url != page.url %}
+		<a href="{{ page.next.url }}" class="list-group-item">Next</a> 
+		{% else %}
+		<a href="#" class="list-group-item disabled">Next</a> 
+		{% endif %}
+	</li>
+</ul>

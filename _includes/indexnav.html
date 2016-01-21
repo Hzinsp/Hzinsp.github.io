@@ -1,0 +1,172 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!--Brand picture-->
+        <div class="container-fluid">
+            <div class="navbar-brand page-scroll">
+                <img src="/img/head.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="row">
+                <div id="search-box" class="col-sm-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control hidden-xs" placeholder="Search">
+                        <span class="input-group-btn">
+                        <button class="btn btn-info" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                    </div>
+                </div>
+                <div class="col-sm-2 visible-lg-inline" style="float:right">
+                    <ul class="breadcrumb navbar-right" id="lang">
+                        <li class="active">
+                            <button class="btn btn-link no-padding" type="button">英语</a>
+                        </li>
+                        <li>
+                            <button class="btn btn-link no-padding" type="button" disabled="disabled">Chinese</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <div class="nav-box-caption"></div>
+                    <a class="dropdown-toggle" data-toggle="dropdown" id="about-menu"
+                    aria-haspopup="true" aria-expanded="false">                      
+                        关于
+                        <i class="fa fa-angle-double-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="about-menu">
+                        <div>
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <div class="nav-box-caption"></div>
+                    <a class="page-scroll" href="blog/index.html" target="_blank">新闻</a>
+                </li>
+                <li class="visible-xs-block">
+                    <a class="page-scroll" href="#services">业务</a>
+                </li>
+                <li class="dropdown hidden-xs">
+                    <div class="nav-box-caption"></div>
+                    <a class="page-scroll dropdown-toggle" data-target="#" href="#services" data-toggle="dropdown" role="button" id="serviceMenu"
+                    aria-haspopup="true" aria-expanded="false">
+                        业务
+                        <i class="fa fa-angle-double-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="serviceMenu">
+                        <li>
+                            <a class="page-scroll" href="#mp"><i class="fa fa-flask"></i> 理化检测</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#ndt"><i class="fa fa-laptop"></i> 无损探伤</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#mt"><i class="fa fa-cubes"></i> 计量检定</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#pt"><i class="fa fa-server"></i> 产品测试</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--<li class="dropdown dropdown-split-right hidden-xs">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-angle-double-down">
+                        </i>
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        <li>
+                            <a class="page-scroll" href="#mp">理化检测</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#ndt">无损探伤</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#mt">计量检定</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#pt">产品测试</a>
+                        </li>
+                    </ul>
+                </li>-->
+                <li>
+                    <div class="nav-box-caption"></div>
+                    <a class="page-scroll" href="#portfolio">服务</a>
+                </li>
+                <li>
+                    <div class="nav-box-caption"></div>
+                    <a class="page-scroll" href="#certificate">资质</a>
+                </li>
+                <li>
+                    <div class="nav-box-caption"></div>
+                    <a role="button" class="btn btn-link" data-toggle="modal" data-target="#contact-modal">联系方式</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!--modal-->
+<div class="modal fade" id="contact-modal" tabindex="0" aria-labelledby="contact-label">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="contact-caption">
+                        <i class="fa fa-2x fa-map-marker"></i>
+                    </div>
+                    <div class="contact-caption">
+                        <i class="fa fa-2x fa-envelope"></i>
+                    </div>
+                    <div class="contact-caption">
+                        <i class="fa fa-2x fa-weixin"></i>
+                    </div>
+                </div>
+            </div>           
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">
+                    关闭窗口
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav id="foot-nav" class="navbar navbar-fixed-bottom" data-spy="affix">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="hidden-xs">
+                <a role="button" class="btn btn-link no-radius" href="">
+                    <i class="fa fa-phone"></i><span class="to-hidden"> Phone</span>
+                </a>
+            </li>
+            <li>
+                <a role="button" class="btn btn-link no-radius" href="mailto:gaoyh@hanzhengt.com.cn;">
+                    <i class="fa fa-envelope"></i> <span class="to-hidden">发送邮件</span>
+                </a>
+            </li>
+            <li>
+                <a role="button" class="btn btn-link no-radius" onclick="document.getElementById('FiletoPrint').focus(); document.getElementById('FiletoPrint').contentWindow.print();">
+                    <i class="fa fa-print"></i> <span class="to-hidden">打印委托单</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

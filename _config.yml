@@ -1,0 +1,10 @@
+gems: [jekyll-paginate]
+
+url: www.hanzhengt.com
+email: emailaddress@email.host
+twitter_username: weixin
+github_username: 00-000-0000
+excerpt_separator: "\n\n\n"
+paginate: 5
+paginate_path: "/blog/page:num/"
+markdown: kramdown

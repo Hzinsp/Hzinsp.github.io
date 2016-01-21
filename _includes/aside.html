@@ -1,0 +1,17 @@
+<aside class="bg-secondary" id="downloads">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h3>点击下载<abbr title = "请点击右键另存为" class="initialism">申请及委托单</abbr></h3>
+            <a href="pdf/receipt.pdf" target="_blank" class="btn btn-default btn-xl wow tada">
+                <i class="fa fa-cloud-download"></i>
+                    立刻下载
+            </a>
+            <a role="button" class="btn btn-default btn-xl wow tada" id="print_button" 
+            onclick="document.getElementById('FiletoPrint').focus(); document.getElementById('FiletoPrint').contentWindow.print();">
+                <i class="fa fa-print"></i>
+                    立刻打印
+            </a>
+        </div>
+        <div id="to_print" style="display:none"></div>
+    </div>
+</aside>

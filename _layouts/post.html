@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+      		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ page.title }}</title>
+    		<!-- Custom CSS -->
+		<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="/css/docs.min.css" type="text/css">
+		<link rel="stylesheet" href="/css/blog.css" type="text/css">
+</head>
+
+<body>
+	<div class="blog-masthead">
+		<div class="container">
+			<div class="blog-nav">
+				<a class="blog-nav-item active" href="/index.html">Home</a>
+				<a class="blog-nav-item" href="/blog/index.html">Back</a>
+			</div>
+		</div>
+	</div>
+    <div class="blog-content">
+	   {{ content }}
+	   <div class="row">
+		  {% include option.html %}
+	   </div>
+    </div>
+	<footer class="blog-footer">
+		<p>Built with <a href="http://getbootstrap.com">Bootstrap</a> by <a href="#" class="btn btn-link">Hanzheng</a>.</p>
+		<p><a href="#">Back to top</a></p>
+	</footer>
+	{% include scripts.html %}
+</body>
+</html>
